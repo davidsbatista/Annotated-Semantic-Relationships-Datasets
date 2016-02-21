@@ -13,15 +13,14 @@ Traditional Information Extraction
 
 ###AImed 
 
-
 **Dateset**: [aimed.tar.gz](aimed.tar.gz)
 
 **Description**: It consists of 225 Medline abstracts, of which 200 are known to describe interactions between human proteins, while the other 25 do not refer to any interaction. There are 4084 protein references and around 1000 tagged interactions in this dataset.
 
 **Cite**: [Subsequence Kernels for Relation Extraction](aimed_erk-nips-05.pdf)
-
-
-
+__
+__
+__
 
 ###SemEval
 
