@@ -52,6 +52,15 @@ Traditional Information Extraction
 
 **Cite**: [Integrating Probabilistic Extraction Models and Data Mining to Discover Relations and Patterns in Text](papers/culotta06integrating.pdf)
 
+**Description**:
+
+
+###Web
+
+**Dateset**: [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt)
+
+**Cite**: [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf)
+
 **Description**: 
   
   
