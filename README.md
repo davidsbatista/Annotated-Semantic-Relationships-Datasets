@@ -99,10 +99,22 @@ Three different datasets. First, the Reverb dataset consists of 500 sentences wi
   
   
   
-###EEffectiveness and Efficiency of Open Relation Extraction
+###Effectiveness and Efficiency of Open Relation Extraction
 
 **Dateset**: [emnlp13_ualberta_experiments_v2.zip](datasets/emnlp13_ualberta_experiments_v2.zip)
 
 **Cite**: [Effectiveness and Efficiency of Open Relation Extraction](papers/Effectiveness_OIE.pdf)
 
 **Description**: WEB-500 is a commonly used dataset, developed for the TextRunner experiments (Banko and Etzioni, 2008). These sentences are often incomplete and grammatically unsound, representing the challenges of dealing with web text. NYT-500 represents the other end of the spectrum with formal, well written new stories from the New York Times Corpus (Sandhaus, 2008). PENN-100 contains sentences from the Penn Treebank recently used in an evaluation of the TreeKernel method (Xu et al., 2013). We manually annotated the relations for WEB-500 and NYT-500 and use the PENN-100 annotations provided by TreeKernel’s authors (Xu et al., 2013).
+
+
+
+###Extracting Relation descriptors with Conditional Random Fields
+
+**Dateset**: [DataSet-IJCNLP2011.tar.gz](datasets/DataSet-IJCNLP2011.tar.gz)
+
+**Cite**: [Extracting Relation descriptors with Conditional Random Fields](papers/rel_descriptors_with_crf.pdf)
+
+**Description**: New York Times data set contains 150 business articles from New York Times. The articles were crawled from the NYT website between November 2009 and January 2010. After sentence splitting and tokenization, we used the Stanford NER tagger (URL: http://nlp.stanford.edu/ner/index.shtml) to identify PER and ORG named entities from each sentence. For named entities that contain multiple tokens we concatenated them into a single token. We then took each pair of (PER, ORG) entities that occur in the same sentence as a single candidate relation instance, where the PER entity is treated as ARG-1 and the ORG entity is treated as ARG-2. 
+
+Wikipedia data was previously created by Aron Culotta et al.. Since the original data set did not contain the annotation information we need, we re-annotated it. Similarly, we performed sentence splitting, tokenization and NER tagging, and took pairs of (PER, PER) entities occurring in the same sentence as a candidate relation instance. We always treat the first PER entity as ARG-1 and the second PER entity as ARG-2.
