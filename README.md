@@ -77,7 +77,7 @@ Open Information Extraction
 
 **Cite**: [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf)
 
-**Description**: 
+**Description**: 500 sentences sampled from the Web, using Yahoo’s random link service.
 
 
   
