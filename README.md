@@ -77,7 +77,7 @@ Open Information Extraction
 
 **Cite**: [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf)
 
-**Description**: 
+**Description**: 500 sentences sampled from the Web, using Yahoo’s random link service.
 
 
   
@@ -92,6 +92,8 @@ Open Information Extraction
 
 **Description**: 
 
+Three different datasets. First, the Reverb dataset consists of 500 sentences with manually labeled extractions. The sentences have been obtained via the random-link service of Yahoo and are generally very noisy. Second, 200 random sentences from Wikipedia pages. These sentences are shorter, simpler, and less noisy than those of the Reverb dataset. Since some Wikipedia articles are written by non-native speakers, however, the Wikipedia sentences do contain some incorrect grammatical constructions. Third, 200 random sentences from the New York Times collection these sentences are generally very clean but tend to be long and complex.
+
 
   
   
@@ -103,4 +105,4 @@ Open Information Extraction
 
 **Cite**: [Effectiveness and Efficiency of Open Relation Extraction](papers/Effectiveness_OIE.pdf)
 
-**Description**: 
+**Description**: WEB-500 is a commonly used dataset, developed for the TextRunner experiments (Banko and Etzioni, 2008). These sentences are often incomplete and grammatically unsound, representing the challenges of dealing with web text. NYT-500 represents the other end of the spectrum with formal, well written new stories from the New York Times Corpus (Sandhaus, 2008). PENN-100 contains sentences from the Penn Treebank recently used in an evaluation of the TreeKernel method (Xu et al., 2013). We manually annotated the relations for WEB-500 and NYT-500 and use the PENN-100 annotations provided by TreeKernel’s authors (Xu et al., 2013).
