@@ -63,6 +63,16 @@ Traditional Information Extraction
 **Description**: Corporate Acquisition Pairs and Person-Birthplace Pairs taken from the web. The corporate acquisition test set has a total of 995 instances, out of which 156 are positive. The person-birthplace test set has a total of 601 instances, and only 45 of them are positive.
 
 
+
+###BioNLP Shared Task
+
+**Dateset**: [BioNLP.tar.gz](datasets/BioNLP.tar.gz)
+
+**Cite**: [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf)
+
+**Description**: The task involves the recognition of two binary part-of relations between entities: PROTEIN-COMPONENT and SUBUNITCOMPLEX. The task is motivated by specific challenges: the identification of the components of proteins in text is relevant e.g. to the recognition of Site arguments (cf. GE, EPI and ID tasks), and relations between proteins and their complexes relevant to any task involving them. REL setup is informed by recent semantic relation tasks (Hendrickx et al., 2010). The task data, consisting of new annotations for GE data, extends a previously introduced resource (Pyysalo et al., 2009; Ohta et al., 2010a).
+
+
 ----
 
 Open Information Extraction
