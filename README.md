@@ -10,7 +10,7 @@ If you know any more datasets please let me know or simple make a pull request.
 Traditional Information Extraction
 -------
 -------
-###ReRelEM
+###DBpediaRelations-PT
 
 **Dateset**: [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)
 
