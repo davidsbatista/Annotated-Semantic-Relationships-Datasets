@@ -10,8 +10,18 @@ If you know any more datasets please let me know or simple make a pull request.
 Traditional Information Extraction
 -------
 -------
+###ReRelEM
 
-###AImed 
+**Dateset**: [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)
+
+**Cite**: [Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)
+
+**Description**: A collections of sentences in Portuguese that express semantic relationships between pairs of entities extracted from
+DBPedia. The sentences were collected by distant supervision, and were than manuall revised.
+
+
+
+###AImed
 
 
 **Dateset**: [aimed.tar.gz](datasets/aimed.tar.gz)
@@ -44,7 +54,7 @@ Traditional Information Extraction
 
 **Description**: First evaluation contest (track) for Portuguese whose goal was to detect and classify relations betweennamed entities in running text, called ReRelEM. Given a collection annotated with named entities belonging to ten different semantic categories, we marked all relationships between them within each document. We used the following fourfold relationship classification: identity, included-in, located-in, and other (which was later on explicitly detailed into twenty different relations).
 
-      
+
 ###Wikipedia
 
 **Dateset**: [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz)
@@ -90,25 +100,25 @@ Open Information Extraction
 **Description**: 500 sentences sampled from the Web, using Yahoo’s random link service.
 
 
-  
-  
-  
-  
+
+
+
+
 ###ClausIE
 
 **Dateset**: [ClausIE-datasets.tar.gz](datasets/ClausIE-datasets.tar.gz)
 
 **Cite**: [ClausIE: Clause-Based Open Information Extraction](papers/delcorro13clausie.pdf)
 
-**Description**: 
+**Description**:
 
 Three different datasets. First, the Reverb dataset consists of 500 sentences with manually labeled extractions. The sentences have been obtained via the random-link service of Yahoo and are generally very noisy. Second, 200 random sentences from Wikipedia pages. These sentences are shorter, simpler, and less noisy than those of the Reverb dataset. Since some Wikipedia articles are written by non-native speakers, however, the Wikipedia sentences do contain some incorrect grammatical constructions. Third, 200 random sentences from the New York Times collection these sentences are generally very clean but tend to be long and complex.
 
 
-  
-  
-  
-  
+
+
+
+
 ###Effectiveness and Efficiency of Open Relation Extraction
 
 **Dateset**: [emnlp13_ualberta_experiments_v2.zip](datasets/emnlp13_ualberta_experiments_v2.zip)
@@ -125,6 +135,6 @@ Three different datasets. First, the Reverb dataset consists of 500 sentences wi
 
 **Cite**: [Extracting Relation descriptors with Conditional Random Fields](papers/rel_descriptors_with_crf.pdf)
 
-**Description**: New York Times data set contains 150 business articles from New York Times. The articles were crawled from the NYT website between November 2009 and January 2010. After sentence splitting and tokenization, we used the Stanford NER tagger (URL: http://nlp.stanford.edu/ner/index.shtml) to identify PER and ORG named entities from each sentence. For named entities that contain multiple tokens we concatenated them into a single token. We then took each pair of (PER, ORG) entities that occur in the same sentence as a single candidate relation instance, where the PER entity is treated as ARG-1 and the ORG entity is treated as ARG-2. 
+**Description**: New York Times data set contains 150 business articles from New York Times. The articles were crawled from the NYT website between November 2009 and January 2010. After sentence splitting and tokenization, we used the Stanford NER tagger (URL: http://nlp.stanford.edu/ner/index.shtml) to identify PER and ORG named entities from each sentence. For named entities that contain multiple tokens we concatenated them into a single token. We then took each pair of (PER, ORG) entities that occur in the same sentence as a single candidate relation instance, where the PER entity is treated as ARG-1 and the ORG entity is treated as ARG-2.
 
 Wikipedia data was previously created by Aron Culotta et al.. Since the original data set did not contain the annotation information we need, we re-annotated it. Similarly, we performed sentence splitting, tokenization and NER tagging, and took pairs of (PER, PER) entities occurring in the same sentence as a candidate relation instance. We always treat the first PER entity as ARG-1 and the second PER entity as ARG-2.
