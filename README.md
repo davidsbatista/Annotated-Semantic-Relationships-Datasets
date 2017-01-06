@@ -1,7 +1,7 @@
 Datasets of Annotated Semantic Relationships
 ============================================
 
-This repository contains a annotated datasets used for the task of semantic relationship extraction. It's divided in two main groups, Traditional Information Extraction, where each relationship is annotated with a type, and Open Information Extraction where different possible relationship are annotated, with no particular type specified.
+This repository contains annotated datasets used for the task of semantic relationship extraction. It's divided in two main groups, Traditional Information Extraction, where each relationship is annotated with a type, and Open Information Extraction where different possible relationship are annotated, with no particular type specified.
 
 If you know any more datasets please let me know or simple make a pull request.
 
