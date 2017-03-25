@@ -10,7 +10,7 @@ If you know any more datasets please let me know or simple make a pull request.
 Traditional Information Extraction
 -------
 -------
-###DBpediaRelations-PT
+### DBpediaRelations-PT
 
 **Dateset**: [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)
 
@@ -21,7 +21,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 
 
-###AImed
+### AImed
 
 
 **Dateset**: [aimed.tar.gz](datasets/aimed.tar.gz)
@@ -35,7 +35,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 
 
-###SemEval
+### SemEval
 
 **Dateset**: [SemEval2010_task8_all_data.tar.gz](datasets/SemEval2010_task8_all_data.tar.gz)
 
@@ -46,7 +46,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 
 
-###ReRelEM
+### ReRelEM
 
 **Dateset**: [ReRelEM.tar.gz](datasets/ReRelEM.tar.gz)
 
@@ -55,7 +55,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 **Description**: First evaluation contest (track) for Portuguese whose goal was to detect and classify relations betweennamed entities in running text, called ReRelEM. Given a collection annotated with named entities belonging to ten different semantic categories, we marked all relationships between them within each document. We used the following fourfold relationship classification: identity, included-in, located-in, and other (which was later on explicitly detailed into twenty different relations).
 
 
-###Wikipedia
+### Wikipedia
 
 **Dateset**: [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz)
 
@@ -64,7 +64,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 **Description**: We sampled 1127 paragraphs from 271 articles from the online encyclopedia Wikipedia and labeled a total of 4701 relation instances. In addition to a large set of person-to-person relations, we also included links between people and organizations, as well as biographical facts such as birthday and jobTitle. In all, there are 53 labels in the training data.
 
 
-###Web
+### Web
 
 **Dateset**: [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt)
 
@@ -74,7 +74,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 
 
-###BioNLP Shared Task
+### BioNLP Shared Task
 
 **Dateset**: [BioNLP.tar.gz](datasets/BioNLP.tar.gz)
 
@@ -83,7 +83,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 **Description**: The task involves the recognition of two binary part-of relations between entities: PROTEIN-COMPONENT and SUBUNITCOMPLEX. The task is motivated by specific challenges: the identification of the components of proteins in text is relevant e.g. to the recognition of Site arguments (cf. GE, EPI and ID tasks), and relations between proteins and their complexes relevant to any task involving them. REL setup is informed by recent semantic relation tasks (Hendrickx et al., 2010). The task data, consisting of new annotations for GE data, extends a previously introduced resource (Pyysalo et al., 2009; Ohta et al., 2010a).
 
 
-###ADE-V2
+### ADE-V2
 
 **Dateset**: [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip)
 
@@ -100,7 +100,7 @@ Open Information Extraction
 
 
 
-###ReVerb
+### ReVerb
 
 **Dateset**: [reverb_emnlp2011_data.tar.gz](datasets/emnlp2011_data.tar.gz)
 
@@ -113,7 +113,7 @@ Open Information Extraction
 
 
 
-###ClausIE
+### ClausIE
 
 **Dateset**: [ClausIE-datasets.tar.gz](datasets/ClausIE-datasets.tar.gz)
 
@@ -128,7 +128,7 @@ Three different datasets. First, the Reverb dataset consists of 500 sentences wi
 
 
 
-###Effectiveness and Efficiency of Open Relation Extraction
+### Effectiveness and Efficiency of Open Relation Extraction
 
 **Dateset**: [emnlp13_ualberta_experiments_v2.zip](datasets/emnlp13_ualberta_experiments_v2.zip)
 
@@ -138,7 +138,7 @@ Three different datasets. First, the Reverb dataset consists of 500 sentences wi
 
 
 
-###Extracting Relation descriptors with Conditional Random Fields
+### Extracting Relation descriptors with Conditional Random Fields
 
 **Dateset**: [DataSet-IJCNLP2011.tar.gz](datasets/DataSet-IJCNLP2011.tar.gz)
 
