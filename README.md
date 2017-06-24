@@ -149,7 +149,7 @@ Wikipedia data was previously created by Aron Culotta et al.. Since the original
 
 ### NYT dataset
 
-**Dateset**: [http://iesl.cs.umass.edu/riedel/ecml/(http://iesl.cs.umass.edu/riedel/ecml/)
+**Dateset**: [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/)
 
 **Cite**: [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf)
 
