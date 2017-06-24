@@ -144,14 +144,12 @@ Three different datasets. First, the Reverb dataset consists of 500 sentences wi
 Wikipedia data was previously created by Aron Culotta et al.. Since the original data set did not contain the annotation information we need, we re-annotated it. Similarly, we performed sentence splitting, tokenization and NER tagging, and took pairs of (PER, PER) entities occurring in the same sentence as a candidate relation instance. We always treat the first PER entity as ARG-1 and the second PER entity as ARG-2.
 
 
-----
 
-Distant Supervision for Relation Extraction
-----
-----
+## Distant Supervision for Relation Extraction
+
 ### NYT dataset
 
-**Dateset**: [Home Page](http://iesl.cs.umass.edu/riedel/ecml/)
+**Dateset**: [http://iesl.cs.umass.edu/riedel/ecml/(http://iesl.cs.umass.edu/riedel/ecml/)
 
 **Cite**: [Modeling relations and their mentions without labeled text](https://www.bing.com/academic/profile?id=09dbbaff9176875fa83ad752fc146a96&encoded=0&v=paper_preview)
 
