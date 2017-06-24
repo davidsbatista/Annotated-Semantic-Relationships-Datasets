@@ -5,18 +5,10 @@ This repository contains annotated datasets used for the task of semantic relati
 
 If you know any more datasets please let me know or simple make a pull request.
 
--------
 
-Traditional Information Extraction
+# Traditional Information Extraction
 
--------
-<<<<<<< HEAD
-
-###DBpediaRelations-PT
-=======
--------
 ### DBpediaRelations-PT
->>>>>>> de2f8a9a4c071b7fdcb16282b74a6157fb37fa8e
 
 **Dateset**: [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)
 
