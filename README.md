@@ -8,8 +8,9 @@ If you know any more datasets please let me know or simple make a pull request.
 -------
 
 Traditional Information Extraction
+
 -------
--------
+
 ###DBpediaRelations-PT
 
 **Dateset**: [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)
@@ -31,11 +32,16 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 **Description**: It consists of 225 Medline abstracts, of which 200 are known to describe interactions between human proteins, while the other 25 do not refer to any interaction. There are 4084 protein references and around 1000 tagged interactions in this dataset.
 
 
+###SemEval 2007
+
+**Dateset**: [SemEval2007-Task4.tar.gz](datasets/SemEval2007-Task4.tar.gz)
+
+**Cite**: [SemEval-2007 Task 04: Classification of Semantic Relations between Nominals](papers/semeval2007.pdf)
+
+**Description**: Small data set, containing 7 relationship types and a total of 1,529 annotated examples.
 
 
-
-
-###SemEval
+###SemEval 2010
 
 **Dateset**: [SemEval2010_task8_all_data.tar.gz](datasets/SemEval2010_task8_all_data.tar.gz)
 
