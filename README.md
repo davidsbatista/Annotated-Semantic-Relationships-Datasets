@@ -1,18 +1,18 @@
 Datasets of Annotated Semantic Relationships
 ============================================
 
-This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction. 
+This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction. If you know any more datasets, and want to contribute, please, notify me or submit a PR.
 
 It's divided in 3 groups:
 
-__Traditional Information Extraction___: relationships are manually annotated, and belongs to pre-determined type.
+__Traditional Information Extraction__: relationships are manually annotated, and belongs to pre-determined type.
 
 __Open Information Extraction__: relationships are manually annotated, but don't have any specific type.
 
 __Distantly Supervised__: relationships are annotated by appying some [Distant Supervision](https://www.aclweb.org/anthology/P09-1113) technique and are pre-determined.
 
 
-If you know any more datasets, and want to contribute, please, notify me or submit a PR.
+
 
 
 
