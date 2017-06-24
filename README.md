@@ -5,17 +5,11 @@ This repository contains annotated datasets which can be used to train supervise
 
 It's divided in 3 groups:
 
-### Traditional Information Extraction
+__Traditional Information Extraction___: relationships are manually annotated, and belongs to pre-determined type.
 
-Each relationship instance was manually annotated, and each belongs to a specific a pre-determined relationship type.
+__Open Information Extraction__: relationships are manually annotated, but don't have any specific type.
 
-### Open Information Extraction
-
-Each relationship instance was manually annotated, but the relationships don't have any specific type, and can occur between any pair of named-entities, nominals, noun-phrases, etc.
-
-### Distantly Supervised
-
-Each relationship instance was annotated by appying some [Distant Supervision](https://www.aclweb.org/anthology/P09-1113) technique/algorithm, and it's type is pre-determined.
+__Distantly Supervised__: relationships are annotated by appying some [Distant Supervision](https://www.aclweb.org/anthology/P09-1113) technique and are pre-determined.
 
 
 If you know any more datasets, and want to contribute, please, notify me or submit a PR.
