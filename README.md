@@ -11,10 +11,7 @@ __Open Information Extraction__: relationships are manually annotated, but don't
 
 __Distantly Supervised__: relationships are annotated by appying some [Distant Supervision](https://www.aclweb.org/anthology/P09-1113) technique and are pre-determined.
 
-
-
-
-
+<br><br>
 
 # Traditional Information Extraction
 
@@ -108,6 +105,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 **Description**: The work presented here aims at generating a systematically annotated corpus that can support the development and validation of methods for the automatic extraction of drug-related adverse effects from medical case reports. The documents are systematically double annotated in various rounds to ensure consistent annotations. The annotated documents are finally harmonized to generate representative consensus annotations. In order to demonstrate an example use case scenario, the corpus was employed to train and validate models for the classification of informative against the non-informative sentences. A Maximum Entropy classifier trained with simple features and evaluated by 10-fold cross-validation resulted in the F1 score of 0.70 indicating a potential useful application of the corpus 
 
+<br><br>
 
 ## Open Information Extraction
 
@@ -153,7 +151,7 @@ Three different datasets. First, the Reverb dataset consists of 500 sentences wi
 
 Wikipedia data was previously created by Aron Culotta et al.. Since the original data set did not contain the annotation information we need, we re-annotated it. Similarly, we performed sentence splitting, tokenization and NER tagging, and took pairs of (PER, PER) entities occurring in the same sentence as a candidate relation instance. We always treat the first PER entity as ARG-1 and the second PER entity as ARG-2.
 
-
+<br><br>
 
 ## Distant Supervision for Relation Extraction
 
