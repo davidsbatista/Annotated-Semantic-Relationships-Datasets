@@ -115,6 +115,7 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 <br><br>
 
+<a name="oie"></a>
 # Open Information Extraction
 
 ### ReVerb
@@ -161,6 +162,7 @@ Wikipedia data was previously created by Aron Culotta et al.. Since the original
 
 <br><br>
 
+<a name="ds"></a>
 # Distant Supervision for Relation Extraction
 
 ### NYT dataset
