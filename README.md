@@ -5,6 +5,13 @@ This repository contains annotated datasets which can be used to train supervise
 
 It's divided in 3 groups:
 
+[__Traditional Information Extraction__](#there_you_go)
+
+[__Open Information Extraction__](#here)
+
+[__Distantly Supervised__](#rhere)
+
+
 __Traditional Information Extraction__: relationships are manually annotated, and belongs to pre-determined type.
 
 __Open Information Extraction__: relationships are manually annotated, but don't have any specific type.
@@ -12,6 +19,8 @@ __Open Information Extraction__: relationships are manually annotated, but don't
 __Distantly Supervised__: relationships are annotated by appying some [Distant Supervision](https://www.aclweb.org/anthology/P09-1113) technique and are pre-determined.
 
 <br><br>
+
+<a name="there_you_go"></a># Traditional Information Extraction
 
 # Traditional Information Extraction
 
