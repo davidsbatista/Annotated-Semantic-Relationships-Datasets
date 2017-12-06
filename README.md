@@ -20,8 +20,7 @@ __Distantly Supervised__: relationships are annotated by appying some [Distant S
 -->
 <br><br>
 
-<a name="tie"></a># Traditional Information Extraction
-
+<a name="tie"></a>
 # Traditional Information Extraction
 
 ### DBpediaRelations-PT
