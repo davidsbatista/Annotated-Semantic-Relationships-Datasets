@@ -167,7 +167,7 @@ Wikipedia data was previously created by Aron Culotta et al.. Since the original
 
 ### Google's relation-extraction-corpus
 
-**Dateset**: [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus
+**Dateset**: [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus)
 
 **Cite**: [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html)
 
