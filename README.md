@@ -104,9 +104,32 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 **Cite**: [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf)
 
-**Description**: The work presented here aims at generating a systematically annotated corpus that can support the development and validation of methods for the automatic extraction of drug-related adverse effects from medical case reports. The documents are systematically double annotated in various rounds to ensure consistent annotations. The annotated documents are finally harmonized to generate representative consensus annotations. In order to demonstrate an example use case scenario, the corpus was employed to train and validate models for the classification of informative against the non-informative sentences. A Maximum Entropy classifier trained with simple features and evaluated by 10-fold cross-validation resulted in the F1 score of 0.70 indicating a potential useful application of the corpus 
+**Description**: The work presented here aims at generating a systematically annotated corpus that can support the development and validation of methods for the automatic extraction of drug-related adverse effects from medical case reports. The documents are systematically double annotated in various rounds to ensure consistent annotations. The annotated documents are finally harmonized to generate representative consensus annotations. In order to demonstrate an example use case scenario, the corpus was employed to train and validate models for the classification of informative against the non-informative sentences. A Maximum Entropy classifier trained with simple features and evaluated by 10-fold cross-validation resulted in the F1 score of 0.70 indicating a potential useful application of the corpus. 
 
 <br><br>
+
+### KBP-37
+
+**Dateset**: [kbp37-master.zip.zip](datasets/kbp37-master.zip)
+
+**Cite**: [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf)
+
+**Description**: This dataset is a revision of MIML-RE annotation dataset, provided by Gabor Angeli et al. (2014). They use both the 2010 and 2013 KBP official document collections, as well as a July 2013 dump of Wikipedia as the text corpus for annotation, 33811 sentences been annotated. To make the dataset more suitable for our task, we made several refinement: 
+
+1. First, we add direction to the relation names, such that ‘per:employee of’ is splited into two relations ‘per:employee of(e1,e2)’ and ‘per:employee of(e2,e1)’ except for ‘no relation’. According to description of KBP task,3 we replace ‘org:parents’ with ‘org:subsidiaries’ and replace ‘org:member of’ with ‘org:member’ (by their reverse directions). This leads to 76 relations in the dataset.
+
+2. Then, we statistic the frequency of each relation with two directions separately. And relations with low frequency are discarded so that both directions of each relation occur more than 100 times in the dataset. To better balance the dataset, 80% ‘no relation’ sentences are also randomly discarded.
+
+3. After that, dataset are randomly shuffled and then sentences under each relation are all split into three groups, 70% for training, 10% for
+development, 20% for test. Finally, we remove those sentences in the development and test set whose entity pairs and relation are appeared in a training sentence simultaneously. 
+
+
+<br><br>
+
+
+
+
+
 
 <a name="oie"></a>
 # Open Information Extraction
