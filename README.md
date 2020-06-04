@@ -25,10 +25,20 @@ It's divided in 3 groups:
 | [BioNLP.tar.gz](datasets/BioNLP.tar.gz) (2011) | Traditional | English | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
 | [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | Traditional | English | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
 | [kbp37-master.zip.zip](datasets/kbp37-master.zip) | Traditional | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
+
+<br><br>
+
+| Dataset                           | Type          | Language | Cite | 
+| --------------------------------- |:-------------:| --------:|---------:|
 | [reverb_emnlp2011_data.tar.gz](datasets/emnlp2011_data.tar.gz) | Open | English | [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf) |
 | [ClausIE-datasets.tar.gz](datasets/ClausIE-datasets.tar.gz) | Open | English | [ClausIE: Clause-Based Open Information Extraction](papers/delcorro13clausie.pdf) |
 | [emnlp13_ualberta_experiments_v2.zip](datasets/emnlp13_ualberta_experiments_v2.zip) | Open | English | [Effectiveness and Efficiency of Open Relation Extraction](papers/Effectiveness_OIE.pdf) |
 | [DataSet-IJCNLP2011.tar.gz](datasets/DataSet-IJCNLP2011.tar.gz) | Open | English | [Extracting Relation descriptors with Conditional Random Fields](papers/rel_descriptors_with_crf.pdf) |
+
+<br><br>
+
+| Dataset                           | Type          | Language | Cite | 
+| --------------------------------- |:-------------:| --------:|---------:|
 | [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
 | [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus) | Distant | English | [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html) |
 
