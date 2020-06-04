@@ -15,7 +15,7 @@ It's divided in 3 groups:
 
 | Dataset                           | Nr. Classes   | Language | Cite | 
 | --------------------------------- |:-------------:| --------:|---------:|
-| [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| Traditional | Portuguese |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
+| [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| 10 | Portuguese |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
 | [aimed.tar.gz](datasets/aimed.tar.gz)| Traditional | English | [Subsequence Kernels for Relation Extraction](erk-nips-05.pdf)|
 | [SemEval2007-Task4.tar.gz](datasets/SemEval2007-Task4.tar.gz) | Traditional | English | [SemEval-2007 Task 04: Classification of Semantic Relations between Nominals](papers/semeval2007.pdf)
 | [SemEval2010_task8_all_data.tar.gz](datasets/SemEval2010_task8_all_data.tar.gz) | Traditional | English | [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](papers/semeval.pdf)
