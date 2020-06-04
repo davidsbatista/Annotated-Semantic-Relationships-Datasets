@@ -13,7 +13,7 @@ It's divided in 3 groups:
 
 <br><br>
 
-| Dataset                           | Type          | Language | Cite | 
+| Dataset                           | Nr. Classes   | Language | Cite | 
 | --------------------------------- |:-------------:| --------:|---------:|
 | [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| Traditional | Portuguese |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
 | [aimed.tar.gz](datasets/aimed.tar.gz)| Traditional | English | [Subsequence Kernels for Relation Extraction](erk-nips-05.pdf)|
@@ -28,7 +28,7 @@ It's divided in 3 groups:
 
 <br><br>
 
-| Dataset                           | Type          | Language | Cite | 
+| Dataset                           | Nr. Classes   | Language | Cite | 
 | --------------------------------- |:-------------:| --------:|---------:|
 | [reverb_emnlp2011_data.tar.gz](datasets/emnlp2011_data.tar.gz) | Open | English | [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf) |
 | [ClausIE-datasets.tar.gz](datasets/ClausIE-datasets.tar.gz) | Open | English | [ClausIE: Clause-Based Open Information Extraction](papers/delcorro13clausie.pdf) |
@@ -37,7 +37,7 @@ It's divided in 3 groups:
 
 <br><br>
 
-| Dataset                           | Type          | Language | Cite | 
+| Dataset                           | Nr. Classes   | Language | Cite | 
 | --------------------------------- |:-------------:| --------:|---------:|
 | [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
 | [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus) | Distant | English | [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html) |
