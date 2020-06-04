@@ -18,13 +18,13 @@ It's divided in 3 groups:
 | [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| 10 | Portuguese |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
 | [aimed.tar.gz](datasets/aimed.tar.gz)| 2 | English | [Subsequence Kernels for Relation Extraction](erk-nips-05.pdf)|
 | [SemEval2007-Task4.tar.gz](datasets/SemEval2007-Task4.tar.gz) | 7 | English | [SemEval-2007 Task 04: Classification of Semantic Relations between Nominals](papers/semeval2007.pdf)
-| [SemEval2010_task8_all_data.tar.gz](datasets/SemEval2010_task8_all_data.tar.gz) | 10 | English | [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](papers/semeval.pdf)
+| [SemEval2010_task8_all_data.tar.gz](datasets/SemEval2010_task8_all_data.tar.gz) | 10 / 19 (directional) | English | [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](papers/semeval.pdf)
 | [ReRelEM.tar.gz](datasets/ReRelEM.tar.gz) | 4 | Portuguese | [Relation detection between named entities: report of a shared task](papers/FreitasetalSEW2009.pdf) |
 | [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz) | 53 | English | [Integrating Probabilistic Extraction Models and Data Mining to Discover Relations and Patterns in Text](papers/culotta06integrating.pdf) |
 | [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | 2 | English | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
 | [BioNLP.tar.gz](datasets/BioNLP.tar.gz) (2011) | 2 | English | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
 | [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | 2 | English | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
-| [kbp37-master.zip](datasets/kbp37-master.zip) |  | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
+| [kbp37-master.zip](datasets/kbp37-master.zip) | 37 directional | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
 
 <br><br>
 
