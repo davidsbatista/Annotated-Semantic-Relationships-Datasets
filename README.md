@@ -24,7 +24,7 @@ It's divided in 3 groups:
 | [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | Traditional | English | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
 | [BioNLP.tar.gz](datasets/BioNLP.tar.gz) (2011) | Traditional | English | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
 | [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | Traditional | English | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
-| [kbp37-master.zip.zip](datasets/kbp37-master.zip) | Traditional | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
+| [kbp37-master.zip](datasets/kbp37-master.zip) | Traditional | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
 
 <br><br>
 
