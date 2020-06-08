@@ -23,7 +23,7 @@ It's divided in 3 groups:
 | [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz) | 53 | English | [Integrating Probabilistic Extraction Models and Data Mining to Discover Relations and Patterns in Text](papers/culotta06integrating.pdf) |
 | [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | 2 | English | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
 | [BioNLP.tar.gz](datasets/BioNLP.tar.gz) (2011) | 2 | English | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
-| [DDICorpus2013.zip](datasets/DDICorpus2013.zip) (2013) | 2 | English | [The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions](papers/1-s2.0-S1532046413001123-main.pdf) |
+| [DDICorpus2013.zip](datasets/DDICorpus2013.zip) (2013) | 4 | English | [The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions](papers/1-s2.0-S1532046413001123-main.pdf) |
 | [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | 2 | English | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
 | [kbp37-master.zip](datasets/kbp37-master.zip) | 37 directional | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
 
@@ -131,6 +131,22 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 
 **Description**: The task involves the recognition of two binary part-of relations between entities: PROTEIN-COMPONENT and SUBUNITCOMPLEX. The task is motivated by specific challenges: the identification of the components of proteins in text is relevant e.g. to the recognition of Site arguments (cf. GE, EPI and ID tasks), and relations between proteins and their complexes relevant to any task involving them. REL setup is informed by recent semantic relation tasks (Hendrickx et al., 2010). The task data, consisting of new annotations for GE data, extends a previously introduced resource (Pyysalo et al., 2009; Ohta et al., 2010a).
 
+---
+
+### The DDI corpus
+
+**Dateset**: [DDICorpus2013.zip](datasets/DDICorpus2013.zip)
+
+**Cite**: [The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions](papers/1-s2.0-S1532046413001123-main.pdf)
+
+**Description**: The DDI corpus  contains MedLine abstracts on drug-drug interactions as well as documents describing drug-drug interactions from the DrugBank database. This task is designed to address the extraction of drug-drug interactions as a whole, but divided into two subtasks to allow separate evaluation of the performance for different aspects of the problem. The task includes two subtasks:
+- Task 1: Recognition and classification of drug names.
+- Task 2: Extraction of drug-drug interactions. The extraction of drug-drug interactions is a specific relation extraction task in biomedical literature. This task could be very appealing to groups studying PPI (protein-protein interaction) extraction because they could adapt their systems to extract drug-drug interactions. Four types of DDIs are proposed:
+   1) mechanism: This type is used to annotate DDIs that aredescribed by their PK mechanism (e.g.Grepafloxacin may inhibitthe    metabolism of theobromine).
+   2) effect:This type is used to annotate DDIs describing an effect(e.g.In uninfected volunteers, 46% developed rash while      receivingSUSTIVA and clarithromycin) or a PD mechanism (e.g.Chlorthali-done may potentiate the action of other         antihypertensive drugs).
+   3) advice:This type is used when a recommendation or adviceregarding a drug interaction is given (e.g.UROXATRAL shouldnot be used in combination with other alpha-blockers).
+   4)int:This type is used when a DDI appears in the text withoutproviding any additional information (e.g.The interaction ofomeprazole and ketoconazole has been established)
+ 
 ---
 
 ### ADE-V2
