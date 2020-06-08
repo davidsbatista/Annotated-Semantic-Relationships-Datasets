@@ -24,7 +24,6 @@ It's divided in 3 groups:
 | [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | 2 | English | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
 | [BioNLP.tar.gz](datasets/BioNLP.tar.gz) (2011) | 2 | English | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
 | [DDICorpus2013.zip](datasets/DDICorpus2013.zip) (2013) | 2 | English | [The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions](papers/1-s2.0-S1532046413001123-main.pdf) |
-
 | [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | 2 | English | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
 | [kbp37-master.zip](datasets/kbp37-master.zip) | 37 directional | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
 
