@@ -142,9 +142,13 @@ DBPedia. The sentences were collected by distant supervision, and were than manu
 **Description**: The DDI corpus  contains MedLine abstracts on drug-drug interactions as well as documents describing drug-drug interactions from the DrugBank database. This task is designed to address the extraction of drug-drug interactions as a whole, but divided into two subtasks to allow separate evaluation of the performance for different aspects of the problem. The task includes two subtasks:
 - Task 1: Recognition and classification of drug names.
 - Task 2: Extraction of drug-drug interactions. The extraction of drug-drug interactions is a specific relation extraction task in biomedical literature. This task could be very appealing to groups studying PPI (protein-protein interaction) extraction because they could adapt their systems to extract drug-drug interactions. Four types of DDIs are proposed:
+
    1) mechanism: This type is used to annotate DDIs that aredescribed by their PK mechanism (e.g.Grepafloxacin may inhibitthe    metabolism of theobromine).
+   
    2) effect:This type is used to annotate DDIs describing an effect(e.g.In uninfected volunteers, 46% developed rash while      receivingSUSTIVA and clarithromycin) or a PD mechanism (e.g.Chlorthali-done may potentiate the action of other                antihypertensive drugs).
+   
    3) advice:This type is used when a recommendation or adviceregarding a drug interaction is given (e.g.UROXATRAL shouldnot      be used in combination with other alpha-blockers).
+   
    4)int:This type is used when a DDI appears in the text withoutproviding any additional information (e.g.The interaction        ofomeprazole and ketoconazole has been established)
  
 ---
