@@ -15,7 +15,7 @@ It's divided in 3 groups:
 
 | Dataset                           | Nr. Classes   | Language | Year | Cite | 
 | --------------------------------- |:-------------:| :-------:|------|------|
-| [aimed.tar.gz](datasets/aimed.tar.gz)| 2 | English | 2005 | [Subsequence Kernels for Relation Extraction](erk-nips-05.pdf)|
+| [aimed.tar.gz](datasets/aimed.tar.gz)| 2 | English | 2005 | [Subsequence Kernels for Relation Extraction](nips-05.pdf)|
 | [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz) | 53 | English | 2006 | [Integrating Probabilistic Extraction Models and Data Mining to Discover Relations and Patterns in Text](papers/culotta06integrating.pdf) |
 | [SemEval2007-Task4.tar.gz](datasets/SemEval2007-Task4.tar.gz) | 7 | English | 2007 | [SemEval-2007 Task 04: Classification of Semantic Relations between Nominals](papers/semeval2007.pdf)
 | [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | 2 | English | 2007 | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
