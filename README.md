@@ -13,34 +13,34 @@ It's divided in 3 groups:
 
 <br><br>
 
-| Dataset                           | Nr. Classes   | Language | Cite | 
-| --------------------------------- |:-------------:| :-------:|---------|
-| [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| 10 | Portuguese |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
-| [aimed.tar.gz](datasets/aimed.tar.gz)| 2 | English | [Subsequence Kernels for Relation Extraction](erk-nips-05.pdf)|
-| [SemEval2007-Task4.tar.gz](datasets/SemEval2007-Task4.tar.gz) | 7 | English | [SemEval-2007 Task 04: Classification of Semantic Relations between Nominals](papers/semeval2007.pdf)
-| [SemEval2010_task8_all_data.tar.gz](datasets/SemEval2010_task8_all_data.tar.gz) | 10 / 19 (directional) | English | [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](papers/semeval.pdf)
-| [ReRelEM.tar.gz](datasets/ReRelEM.tar.gz) | 4 | Portuguese | [Relation detection between named entities: report of a shared task](papers/FreitasetalSEW2009.pdf) |
-| [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz) | 53 | English | [Integrating Probabilistic Extraction Models and Data Mining to Discover Relations and Patterns in Text](papers/culotta06integrating.pdf) |
-| [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | 2 | English | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
-| [BioNLP.tar.gz](datasets/BioNLP.tar.gz) (2011) | 2 | English | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
-| [DDICorpus2013.zip](datasets/DDICorpus2013.zip) (2013) | 4 | English | [The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions](papers/1-s2.0-S1532046413001123-main.pdf) |
-| [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | 2 | English | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
-| [kbp37-master.zip](datasets/kbp37-master.zip) | 37 directional | English | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
+| Dataset                           | Nr. Classes   | Language | Year | Cite | 
+| --------------------------------- |:-------------:| :-------:|------|------|
+| [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| 10 | Portuguese | 2013 |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
+| [aimed.tar.gz](datasets/aimed.tar.gz)| 2 | English | 2013 | [Subsequence Kernels for Relation Extraction](erk-nips-05.pdf)|
+| [SemEval2007-Task4.tar.gz](datasets/SemEval2007-Task4.tar.gz) | 7 | English | 2007 | [SemEval-2007 Task 04: Classification of Semantic Relations between Nominals](papers/semeval2007.pdf)
+| [SemEval2010_task8_all_data.tar.gz](datasets/SemEval2010_task8_all_data.tar.gz) | 10 / 19 (directional) | English | 2010 | [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](papers/semeval.pdf)
+| [ReRelEM.tar.gz](datasets/ReRelEM.tar.gz) | 4 | Portuguese | 2009 | [Relation detection between named entities: report of a shared task](papers/FreitasetalSEW2009.pdf) |
+| [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz) | 53 | English | 2006 | [Integrating Probabilistic Extraction Models and Data Mining to Discover Relations and Patterns in Text](papers/culotta06integrating.pdf) |
+| [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | 2 | English | 2007 | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
+| [BioNLP.tar.gz](datasets/BioNLP.tar.gz) | 2 | English | 2011 | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
+| [DDICorpus2013.zip](datasets/DDICorpus2013.zip) | 4 | English | 2012 | [The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions](papers/1-s2.0-S1532046413001123-main.pdf) |
+| [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | 2 | English | 2013 | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
+| [kbp37-master.zip](datasets/kbp37-master.zip) | 37 directional | English | 2015 | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
 
 <br><br>
 
 | Dataset                           | Nr. Classes   | Language | Cite | 
 | --------------------------------- |:-------------:| :-------:|---------|
-| [reverb_emnlp2011_data.tar.gz](datasets/emnlp2011_data.tar.gz) | Open | English | [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf) |
-| [ClausIE-datasets.tar.gz](datasets/ClausIE-datasets.tar.gz) | Open | English | [ClausIE: Clause-Based Open Information Extraction](papers/delcorro13clausie.pdf) |
-| [emnlp13_ualberta_experiments_v2.zip](datasets/emnlp13_ualberta_experiments_v2.zip) | Open | English | [Effectiveness and Efficiency of Open Relation Extraction](papers/Effectiveness_OIE.pdf) |
-| [DataSet-IJCNLP2011.tar.gz](datasets/DataSet-IJCNLP2011.tar.gz) | Open | English | [Extracting Relation descriptors with Conditional Random Fields](papers/rel_descriptors_with_crf.pdf) |
+| [reverb_emnlp2011_data.tar.gz](datasets/emnlp2011_data.tar.gz) | Open | English | 2013 | [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf) |
+| [ClausIE-datasets.tar.gz](datasets/ClausIE-datasets.tar.gz) | Open | English | 2013 | [ClausIE: Clause-Based Open Information Extraction](papers/delcorro13clausie.pdf) |
+| [emnlp13_ualberta_experiments_v2.zip](datasets/emnlp13_ualberta_experiments_v2.zip) | Open | English | 2013 | [Effectiveness and Efficiency of Open Relation Extraction](papers/Effectiveness_OIE.pdf) |
+| [DataSet-IJCNLP2011.tar.gz](datasets/DataSet-IJCNLP2011.tar.gz) | Open | English | 2013 | [Extracting Relation descriptors with Conditional Random Fields](papers/rel_descriptors_with_crf.pdf) |
 
 <br><br>
 
 | Dataset                           | Nr. Classes   | Language | Cite | 
 | --------------------------------- |:-------------:| :-------:|---------|
-| [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
+| [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | 2013 | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
 | [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus) | Distant | English | [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html) |
 
 
