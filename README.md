@@ -41,7 +41,7 @@ It's divided in 3 groups:
 | Dataset                           | Nr. Classes   | Language |  Year | Cite | 
 | --------------------------------- |:-------------:| :-------:|-------|------|
 | [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | 2010 | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
-| [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus) | Distant | English | [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html) |
+| [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus) | Distant | English | 2013 | [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html) |
 
 
 
