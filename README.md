@@ -16,7 +16,6 @@ It's divided in 3 groups:
 | Dataset                           | Nr. Classes   | Language | Year | Cite | 
 | --------------------------------- |:-------------:| :-------:|------|------|
 | [aimed.tar.gz](datasets/aimed.tar.gz)| 2 | English | 2005 | [Subsequence Kernels for Relation Extraction](erk-nips-05.pdf)|
-| [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| 10 | Portuguese | 2013 |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
 | [wikipedia_datav1.0.tar.gz](datasets/wikipedia_datav1.0.tar.gz) | 53 | English | 2006 | [Integrating Probabilistic Extraction Models and Data Mining to Discover Relations and Patterns in Text](papers/culotta06integrating.pdf) |
 | [SemEval2007-Task4.tar.gz](datasets/SemEval2007-Task4.tar.gz) | 7 | English | 2007 | [SemEval-2007 Task 04: Classification of Semantic Relations between Nominals](papers/semeval2007.pdf)
 | [hlt-naacl08-data.txt](datasets/hlt-naacl08-data.txt) | 2 | English | 2007 | [Learning to Extract Relations from the Web using Minimal Supervision](papers/bunescu-acl07.pdf) |
@@ -25,6 +24,7 @@ It's divided in 3 groups:
 | [BioNLP.tar.gz](datasets/BioNLP.tar.gz) | 2 | English | 2011 | [Overview of BioNLP Shared Task 2011](papers/W11-1801.pdf) |
 | [DDICorpus2013.zip](datasets/DDICorpus2013.zip) | 4 | English | 2012 | [The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions](papers/1-s2.0-S1532046413001123-main.pdf) |
 | [ADE-Corpus-V2.zip](datasets/ADE-Corpus-V2.zip) | 2 | English | 2013 | [Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports](papers/ADE-V2.pdf) |
+| [DBpediaRelations-PT-0.2.txt.bz2](datasets/DBpediaRelations-PT-0.2.txt.bz2)| 10 | Portuguese | 2013 |[Exploring DBpedia and Wikipedia for Portuguese Semantic Relationship Extraction](papers/minwise-linguamtica-13.pdf)|
 | [kbp37-master.zip](datasets/kbp37-master.zip) | 37 directional | English | 2015 | [Relation Classification via Recurrent Neural Network](papers/KBP37.pdf) |
 
 <br><br>
