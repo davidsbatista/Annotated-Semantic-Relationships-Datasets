@@ -29,18 +29,18 @@ It's divided in 3 groups:
 
 <br><br>
 
-| Dataset                           | Nr. Classes   | Language | Cite | 
-| --------------------------------- |:-------------:| :-------:|---------|
-| [reverb_emnlp2011_data.tar.gz](datasets/emnlp2011_data.tar.gz) | Open | English | 2013 | [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf) |
+| Dataset                           | Nr. Classes   | Language | Year | Cite | 
+| --------------------------------- |:-------------:| :-------:|------|------|
+| [reverb_emnlp2011_data.tar.gz](datasets/emnlp2011_data.tar.gz) | Open | English | 2011 | [Identifying Relations for Open Information Extraction](papers/Fader-emnlp11.pdf) |
 | [ClausIE-datasets.tar.gz](datasets/ClausIE-datasets.tar.gz) | Open | English | 2013 | [ClausIE: Clause-Based Open Information Extraction](papers/delcorro13clausie.pdf) |
 | [emnlp13_ualberta_experiments_v2.zip](datasets/emnlp13_ualberta_experiments_v2.zip) | Open | English | 2013 | [Effectiveness and Efficiency of Open Relation Extraction](papers/Effectiveness_OIE.pdf) |
-| [DataSet-IJCNLP2011.tar.gz](datasets/DataSet-IJCNLP2011.tar.gz) | Open | English | 2013 | [Extracting Relation descriptors with Conditional Random Fields](papers/rel_descriptors_with_crf.pdf) |
+| [DataSet-IJCNLP2011.tar.gz](datasets/DataSet-IJCNLP2011.tar.gz) | Open | English | 2011 | [Extracting Relation descriptors with Conditional Random Fields](papers/rel_descriptors_with_crf.pdf) |
 
 <br><br>
 
-| Dataset                           | Nr. Classes   | Language | Cite | 
-| --------------------------------- |:-------------:| :-------:|---------|
-| [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | 2013 | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
+| Dataset                           | Nr. Classes   | Language |  Year | Cite | 
+| --------------------------------- |:-------------:| :-------:|-------|------|
+| [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | 2010 | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
 | [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus) | Distant | English | [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html) |
 
 
