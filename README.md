@@ -42,7 +42,8 @@ It's divided in 3 groups:
 | --------------------------------- |:-------------:| :-------:|-------|------|
 | [http://iesl.cs.umass.edu/riedel/ecml/](http://iesl.cs.umass.edu/riedel/ecml/) | Distant | English | 2010 | [Modeling Relations and Their Mentions without Labeled Text](papers/Ridel2010.pdf) |
 | [https://github.com/google-research-datasets/relation-extraction-corpus](https://github.com/google-research-datasets/relation-extraction-corpus) | Distant | English | 2013 | [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html) |
-
+| [PGR.zip](datasets/PGR.zip) | Distant | English | 2019 | [A Silver Standard Corpus of Human Phenotype-Gene Relations](papers/PGR.pdf)
+| [PGR-crowd.zip](datasets/PGR-crowd.zip) | Distant + Crowdsourced | English | 2020 | [A hybrid approach toward biomedical relation extraction training corpora: combining distant supervision with crowdsourcing](papers/PGR-crowd.pdf)
 
 
 
@@ -252,3 +253,22 @@ Wikipedia data was previously created by Aron Culotta et al.. Since the original
 
 **Description**: [https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html](https://research.googleblog.com/2013/04/50000-lessons-on-how-to-read-relation.html)
 
+---
+
+### PGR Corpus
+
+**Dataset**: [PGR.zip](datasets/PGR.zip)
+
+**Cite**: [A Silver Standard Corpus of Human Phenotype-Gene Relations](papers/PGR.pdf)
+
+**Description**: Human phenotype-gene relations are fundamental to fully understand the origin of some phenotypic abnormalities and their associated diseases. Biomedical literature is the most comprehensive source of these relations, however, we need Relation Extraction tools to automatically recognize them. Most of these tools require an annotated corpus and to the best of our knowledge, there is no corpus available annotated with human phenotype-gene relations. This paper presents the Phenotype-Gene Relations (PGR) corpus, a silver standard corpus of human phenotype and gene annotations and their relations. The corpus consists of 1712 abstracts, 5676 human phenotype annotations, 13835 gene annotations, and 4283 relations. We generated this corpus using Named-Entity Recognition tools, whose results were partially evaluated by eight curators, obtaining a precision of 87.01%. By using the corpus we were able to obtain promising results with two state-of-the-art deep learning tools, namely 78.05% of precision. The PGR corpus was made publicly available to the research community.
+
+---
+
+### PGR-crowd Corpus
+
+**Dataset**: [PGR-crowd.zip](datasets/PGR-crowd.zip)
+
+**Cite**: [A hybrid approach toward biomedical relation extraction training corpora: combining distant supervision with crowdsourcing](papers/PGR-crowd.pdf)
+
+**Description**: Biomedical relation extraction (RE) datasets are vital in the construction of knowledge bases and to potentiate the discovery of new interactions. There are several ways to create biomedical RE datasets, some more reliable than others, such as resorting to domain expert annotations. However, the emerging use of crowdsourcing platforms, such as Amazon Mechanical Turk (MTurk), can potentially reduce the cost of RE dataset construction, even if the same level of quality cannot be guaranteed. There is a lack of power of the researcher to control who, how and in what context workers engage in crowdsourcing platforms. Hence, allying distant supervision with crowdsourcing can be a more reliable alternative. The crowdsourcing workers would be asked only to rectify or discard already existing annotations, which would make the process less dependent on their ability to interpret complex biomedical sentences. In this work, we use a previously created distantly supervised human phenotype–gene relations (PGR) dataset to perform crowdsourcing validation. We divided the original dataset into two annotation tasks: Task 1, 70% of the dataset annotated by one worker, and Task 2, 30% of the dataset annotated by seven workers. Also, for Task 2, we added an extra rater on-site and a domain expert to further assess the crowdsourcing validation quality. Here, we describe a detailed pipeline for RE crowdsourcing validation, creating a new release of the PGR dataset with partial domain expert revision, and assess the quality of the MTurk platform. We applied the new dataset to two state-of-the-art deep learning systems (BiOnt and BioBERT) and compared its performance with the original PGR dataset, as well as combinations between the two, achieving a 0.3494 increase in average F-measure. The code supporting our work and the new release of the PGR dataset is available at https://github.com/lasigeBioTM/PGR-crowd.
